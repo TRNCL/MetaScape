@@ -1,0 +1,50 @@
+{
+  "did": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121",
+  "document": {
+    "@context": "https://w3id.org/did/v1",
+    "id": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121",
+    "version": 1,
+    "created": "2019-10-23T09:14:17.961Z",
+    "updated": "2019-10-23T09:14:17.961Z",
+    "publicKey": [
+      {
+        "id": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121#keys-1",
+        "type": "EcdsaSecp256k1VerificationKey2019",
+        "controller": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121",
+        "publicKeyHex": "0xfbf38de9fb40edcdab412094d24fa39a314f3d3f52f5860e2509c32522eda30161fe70dfc9f90434d64bd976ede4f112d4f2d8e34d28fe48281663219d2ddac6"
+      },
+      {
+        "id": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121#keys-1",
+        "type": "EcdsaSecp256k1RecoveryMethod2020",
+        "controller": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121",
+        "ethAddress": "0xf269E60fF7280e3E11b7EEd7B76b5C005105D121"
+      }
+    ],
+    "authentication": [
+      "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121#keys-2",
+      {
+        "id": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121#keys-2",
+        "type": "EcdsaSecp256k1VerificationKey2020",
+        "controller": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121",
+        "ethAddress": "0xf269E60fF7280e3E11b7EEd7B76b5C005105D121"
+      }
+    ],
+    "recovery": [
+      "0xfbf38de9fb40edcdab412094d24fa39a314f3d3f52f5860e2509c32522eda30161fe70dfc9f90434d64bd976ede4f112d4f2d8e34d28fe48281663219d2ddac6"
+    ],
+    "service": [
+      {
+        "id": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121#resolver",
+        "type": "DIDResolve",
+        "serviceEndpoint": "https://did.baidu.com"
+      }
+    ],
+    "proof": {
+      "type": "Secp256k1",
+      "creator": "did:etho:f269E60fF7280e3E11b7EEd7B76b5C005105D121",
+      "signatureValue": "3045022100ff51c2629c9eb5d75d9786506ad45e82a87bf91b991a4b37f6d81ce70984220302201f4aa4f609a7ff96de190db68a25603fc849f1098d3f506098dc79af826b4a67"
+    }
+  },
+  "operation": "create",
+  "timestamp": 253146316
+}
